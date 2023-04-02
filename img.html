@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The title of the document</title>
+    <style>
+  .flex{
+  display:flex;
+  flex-direction:row;
+  background-color:#2BD582;
+  padding:20px;
+}
+img{
+  width:300px;
+}
+.hide-bg{
+  mix-blend-mode: multiply;
+  filter: contrast(1);
+}
+h2{
+  font-family:arial;
+}
+    </style>
+  </head>
+  <body>
+    <div class="flex">
+  <div>
+    <h2>Image with white background</h2>
+      <img src="https://lever-client-logos.s3.amazonaws.com/6b17474a-d642-400b-90c8-a83f54bf1901-1569347597723.png"/>
+   <div>
+     
+      <div>
+    <h2>Image without white background</h2>
+      <img src="https://lever-client-logos.s3.amazonaws.com/6b17474a-d642-400b-90c8-a83f54bf1901-1569347597723.png" class="hide-bg"/>
+   <div>
+</div>
+  </body>
+</html>
